@@ -1,0 +1,83 @@
+34:637  4:163  Found BIOS RSDP at FE300
+34:637  0:000  Printing ACPI tables from RSDP FE300 ...
+34:637  0:000   FE300: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+34:637  0:000    (Xsdt: CF7FDE18, Rsdt: CF7FDF18)
+34:637  0:000    CF7FDE18: 'XSDT', 'CBX3', Rev: 1, Len: 132
+34:637  0:000    CF7FDF18: 'RSDT', 'CBX3', Rev: 1, Len: 88
+34:637  0:000    Tables in Xsdt: 12
+34:637  0:000    0. CF787D98: 'FACP', 'CBX3', Rev: 4, Len: 244
+34:637  0:000        (Dsdt: CF754018, Facs: CF7E4E40, XDsdt: CF754018, XFacs: CF7E4D40)
+34:637  0:000        CF754018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 35395
+34:638  0:001        CF7E4D40: 'FACS', Ver: 1, Len: 64
+34:638  0:000    1. CF7FCF18: 'APIC', 'CBX3', Rev: 2, Len: 204
+34:638  0:000    2. CF7E5D18: 'TCPA', '', Rev: 2, Len: 50
+34:638  0:000    3. CF788A98: 'SSDT', 'TPM', Rev: 1, Len: 761
+34:638  0:000    4. CF7E5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60
+34:638  0:000    5. CF7E5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56
+34:638  0:000    6. CF7E5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40
+34:638  0:000    7. CF76B018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2118
+34:638  0:000    8. CF76A018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+34:638  0:000    9. CF7E4A18: 'DMAR', 'SNB', Rev: 1, Len: 176
+34:638  0:000    10. CF774C18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+34:638  0:000    11. CF772018: 'SSDT', 'NvdTabl', Rev: 1, Len: 6392
+34:638  0:000    Tables in Rsdt: 13
+34:638  0:000    0. CF7E4B18: 'FACP', 'CBX3', Rev: 2, Len: 132
+34:638  0:000        (Dsdt: CF754018, Facs: CF7E4E40)
+34:638  0:000        CF754018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 35395
+34:639  0:001        CF7E4E40: 'FACS', Ver: 0, Len: 64
+34:639  0:000    1. CF7FCF18: 'APIC', 'CBX3', Rev: 2, Len: 204
+34:639  0:000    2. CF787F18: 'ASF!', ' HCG', Rev: 32, Len: 165
+34:639  0:000    3. CF7E5D18: 'TCPA', '', Rev: 2, Len: 50
+34:639  0:000    4. CF788A98: 'SSDT', 'TPM', Rev: 1, Len: 761
+34:639  0:000    5. CF7E5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60
+34:639  0:000    6. CF7E5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56
+34:639  0:000    7. CF7E5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40
+34:639  0:000    8. CF76B018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2118
+34:639  0:000    9. CF76A018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+34:639  0:000    10. CF7E4A18: 'DMAR', 'SNB', Rev: 1, Len: 176
+34:639  0:000    11. CF774C18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+34:639  0:000    12. CF772018: 'SSDT', 'NvdTabl', Rev: 1, Len: 6392
+34:639  0:000  Found UEFI Acpi 2.0 RSDP at CF7FEF98
+34:639  0:000  Saving ACPI tables from RSDP CF7FEF98 to EFI\CLOVER\ACPI\origin ...
+34:639  0:000   CF7FEF98: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+34:917  0:277    (Xsdt: CF7FDE18, Rsdt: CF7FDF18)
+34:917  0:000    CF7FDE18: 'XSDT', 'CBX3', Rev: 1, Len: 132 -> XSDT.aml
+34:925  0:007    CF7FDF18: 'RSDT', 'CBX3', Rev: 1, Len: 88 -> RSDT.aml
+34:928  0:003    Tables in Xsdt: 12
+34:928  0:000    0. CF787D98: 'FACP', 'CBX3', Rev: 4, Len: 244 -> FACP.aml
+34:931  0:003        (Dsdt: CF754018, Facs: CF7E4E40, XDsdt: CF754018, XFacs: CF7E4D40)
+34:931  0:000        CF754018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 35395 -> DSDT.aml
+34:944  0:012        CF7E4D40: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+34:947  0:003    1. CF7FCF18: 'APIC', 'CBX3', Rev: 2, Len: 204 -> APIC.aml
+34:950  0:003    2. CF7E5D18: 'TCPA', '', Rev: 2, Len: 50 -> TCPA.aml
+34:953  0:003    3. CF788A98: 'SSDT', 'TPM', Rev: 1, Len: 761 -> SSDT-0-TPM.aml
+34:956  0:003    4. CF7E5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60 -> MCFG.aml
+34:961  0:004    5. CF7E5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56 -> HPET.aml
+34:966  0:005    6. CF7E5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40 -> BOOT.aml
+34:969  0:003    7. CF76B018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2118 -> SSDT-1-Cpu0Ist.aml
+34:974  0:004    8. CF76A018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+ Found hidden SSDT 4 pcs
+34:974  0:000        * CC731018: 'pifc', '0ðrÌ', Rev: 24, Len: 0  70 69 66 63 00 00 00 00 18 F0 72 CC 00 00 00 00       * CF5D8A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 8E 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x2_0-ApIst.aml
+34:981  0:006        * CF5D7798: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1831  53 53 44 54 27 07 00 00 01 7D 50 6D 52 65 66 00 Internal length = 1831 -> SSDT-x2_1-Cpu0Cst.aml
+34:990  0:009        * CF5D6D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 04 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+34:998  0:007   -> SSDT-2-CpuPm.aml
+35:009  0:011    9. CF7E4A18: 'DMAR', 'SNB', Rev: 1, Len: 176 -> DMAR.aml
+35:012  0:003    10. CF774C18: 'SLIC', 'CBX3', Rev: 3, Len: 374 -> SLIC.aml
+35:016  0:003    11. CF772018: 'SSDT', 'NvdTabl', Rev: 1, Len: 6392 -> SSDT-3-NvdTabl.aml
+35:019  0:003    Tables in Rsdt: 13
+35:019  0:000    0. CF7E4B18: 'FACP', 'CBX3', Rev: 2, Len: 132 -> RSDT-FACP.aml
+35:022  0:003        (Dsdt: CF754018, Facs: CF7E4E40)
+35:022  0:000        CF754018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 35395
+35:023  0:001        CF7E4E40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+35:028  0:004    1. CF7FCF18: 'APIC', 'CBX3', Rev: 2, Len: 204
+35:028  0:000    2. CF787F18: 'ASF!', ' HCG', Rev: 32, Len: 165 -> RSDT-ASF!.aml
+35:034  0:006    3. CF7E5D18: 'TCPA', '', Rev: 2, Len: 50
+35:034  0:000    4. CF788A98: 'SSDT', 'TPM', Rev: 1, Len: 761
+35:034  0:000    5. CF7E5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60
+35:034  0:000    6. CF7E5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56
+35:034  0:000    7. CF7E5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40
+35:034  0:000    8. CF76B018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2118
+35:034  0:000    9. CF76A018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+35:034  0:000    10. CF7E4A18: 'DMAR', 'SNB', Rev: 1, Len: 176
+35:034  0:000    11. CF774C18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+35:034  0:000    12. CF772018: 'SSDT', 'NvdTabl', Rev: 1, Len: 6392
