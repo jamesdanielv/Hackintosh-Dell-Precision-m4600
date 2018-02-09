@@ -1,5 +1,12 @@
 # Hackintosh-Dell-Precision-m4600
 
+(updated files and includeded extra kext keys)
+* changes that add wifi, bt, keyboard functionality, and trackpad and mouse are at bottom of page. 
+*graphics issues currently in MacOs High Serrra, drivers work ok with apfs.efi file installed as per instructions and bottom of page notes in el captian.
+still need to sort out extra kext keys as ocational kp happen.
+
+from original readme:
+
 CLOVER folder for to install MacOS for Dell Precision m4600
 
 Tested on: macOS Sierra
@@ -80,3 +87,13 @@ WIFI: Intel(R) Centrino(R) Ultimate-N 6300 AGN
 
 
 _Any pull request would be appreciated_
+
+wifi works if you install kext util (found on the internet) and install files fro broadcomm, and intel chipset in the macos after it is booted. 
+
+
+new info:
+wifi card needs to be broadcomm, not intel to work properly. look for models of bt that have same chipsets as apple products.
+max os high seirra seems to have graphics glitches, so this code worked on a m4600 running el caption
+if the file apfs.efi is added to the drives64 file, the keyboard works as well as the mouse pad. still testing config file before uploading it. also some kernal panics, probably due to 2 intel drivers kexts.
+
+
